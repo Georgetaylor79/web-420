@@ -13,8 +13,5 @@
     "express": "^4.17.1",
     "mongoose": "^5.12.3",
     "swagger-jsdoc": "6.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
   }
 }

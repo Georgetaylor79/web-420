@@ -1,0 +1,11 @@
+{
+  "name": "web-420",
+  "version": "1.0.0",
+  "description": "web420class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Taylor",
+  "license": "MIT"
+}

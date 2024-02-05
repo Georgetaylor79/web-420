@@ -1,8 +1,8 @@
 /*
 ============================================
- Title: macias-composer.js
- Author: Andres Macias
- Date:   9/4/22
+ Title: taylor-composer.js
+ Author: George Taylor 
+ Date:   2/4/24
  Description: contains schema for composer
 ===========================================
 */
@@ -13,11 +13,9 @@ let http = require("http");
 let swaggerUi = require("swagger-ui-express");
 let swaggerJsdoc = require("swagger-jsdoc");
 let mongoose = require("mongoose");
-// let composerAPI = require("./routes/macias-composer-routes");
+// let composerAPI = require("./routes/taylor-composer-routes");
 let teamAPI = require("./routes/taylor-composer-routes");
-// let personAPI = require("./routes/macias-person-routes");
-// let userAPI = require("./routes/macias-session-routes");
-// let customerAPI = require("./routes/macias-node-shopper-routes");
+
 let app = express();
 let bodyParser = require("body-parser");
 

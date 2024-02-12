@@ -27,6 +27,8 @@ app.use(bodyParser.urlencoded({'extended': false}));
 app.use(bodyParser.json()); //this is needed to have swagger pass the json to the node api
 
 
+
+
 const options = {
     definition: {
         openapi: '3.0.0',

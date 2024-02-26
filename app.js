@@ -27,7 +27,16 @@ app.use(bodyParser.urlencoded({'extended': false}));
 app.use(bodyParser.json()); //this is needed to have swagger pass the json to the node api
 
 
-
+let conn = 'mongodb+srv://taylor79:s3cret@cluster0.f36akkm.mongodb.net/ ';
+mongoose.connect(conn, {
+    promiseLibrary: require('bluebird'),
+    useUnifiedTopology: true,
+    useNewUrlParser: true
+}).then(() => {
+    console.log(`Connection to web420DB on MongoDB Atlas Successful`)
+}).catch(error => {
+    console.log(`MongoDB Error: ${error.message}`);
+})
 
 const options = {
     definition: {

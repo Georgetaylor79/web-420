@@ -2,16 +2,14 @@
 ============================================
  Title: taylor-composer-routes.js
  Author: George Taylor
- Date:   2/04/2024
- Description: contains schema for composer
+ Date:   2-18-2024
+ Description: composer API - routes for composer
 ===========================================
 */
 
-
-
 let express = require('express');
 let router = express.Router();
-let Composer = require('../models/taylor-composer');
+let Composer = require('../models/macias-composer');
 
 /**
 * openapi: 3.0.0

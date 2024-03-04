@@ -9,7 +9,7 @@
 
 let express = require('express');
 let router = express.Router();
-let Composer = require('../models/macias-composer');
+let Composer = require('../models/taylor-composer');
 
 /**
 * openapi: 3.0.0

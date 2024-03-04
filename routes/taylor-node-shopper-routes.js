@@ -9,7 +9,7 @@
 
 let express = require('express');
 let router = express.Router();
-let Customer = require('../models/macias-customer');
+let Customer = require('../models/taylor-customer');
 
 
 /**

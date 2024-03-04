@@ -9,7 +9,7 @@
 
 let express = require('express');
 let router = express.Router();
-let User = require('../models/macias-user');
+let User = require('../models/taylor-user');
 let bcrypt = require('bcryptjs');
 
 let saltRounds = 10;
